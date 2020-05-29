@@ -1,2 +1,2 @@
-#decscribtion
-python code for ml 
+# decscribtion
+python code for ml and AI
