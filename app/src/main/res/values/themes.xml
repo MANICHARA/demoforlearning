@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ContentBlocker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:navigationBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    
+    <!-- Custom styles -->
+    <style name="Theme.ContentBlocker.Splash" parent="Theme.ContentBlocker">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@color/purple_700</item>
+        <item name="android:navigationBarColor">@color/purple_700</item>
+    </style>
+    
+    <!-- Card style -->
+    <style name="Widget.ContentBlocker.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardBackgroundColor">@color/surface_variant</item>
+    </style>
+    
+    <!-- Button styles -->
+    <style name="Widget.ContentBlocker.Button" parent="Widget.Material3.Button">
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">16dp</item>
+        <item name="cornerRadius">24dp</item>
+    </style>
+    
+    <style name="Widget.ContentBlocker.Button.Secondary" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">16dp</item>
+        <item name="cornerRadius">24dp</item>
+    </style>
+</resources>
