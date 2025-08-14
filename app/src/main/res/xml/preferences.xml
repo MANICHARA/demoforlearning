@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Content Blocking"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="instagram_blocking_enabled"
+            android:title="@string/block_instagram"
+            android:summary="Block Instagram Reels content"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            android:key="youtube_blocking_enabled"
+            android:title="@string/block_youtube"
+            android:summary="Block YouTube Shorts content"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Blocking Method"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            android:key="blocking_method"
+            android:title="@string/blocking_method"
+            android:summary="Choose how to block content"
+            android:entries="@array/blocking_method_entries"
+            android:entryValues="@array/blocking_method_values"
+            android:defaultValue="redirect"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Notifications"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="notifications_enabled"
+            android:title="@string/show_notifications"
+            android:summary="Show notifications when content is blocked"
+            android:defaultValue="true"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="General"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            android:key="auto_start_enabled"
+            android:title="@string/auto_start"
+            android:summary="Automatically start service on device boot"
+            android:defaultValue="false"
+            app:iconSpaceReserved="false" />
+
+        <Preference
+            android:key="usage_stats_permission"
+            android:title="@string/usage_stats_permission"
+            android:summary="Grant usage stats permission to detect app usage"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="blocking_method_entries">
+        <item>Redirect to Home</item>
+        <item>Close App</item>
+        <item>Show Alert</item>
+    </string-array>
+    
+    <string-array name="blocking_method_values">
+        <item>redirect</item>
+        <item>close</item>
+        <item>alert</item>
+    </string-array>
+</resources>
