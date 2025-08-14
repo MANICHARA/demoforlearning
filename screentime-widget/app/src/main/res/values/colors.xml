@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6750A4</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorPrimaryContainer">#EADDFF</color>
+    <color name="colorSecondary">#625B71</color>
+
+    <color name="ic_launcher_background">#FFFFFF</color>
+
+    <color name="widget_bg_start">#7C4DFF</color>
+    <color name="widget_bg_end">#F06292</color>
+    <color name="widget_text_primary">#FFFFFF</color>
+    <color name="widget_text_secondary">#EDE7F6</color>
+    <color name="widget_stroke">#33FFFFFF</color>
+</resources>

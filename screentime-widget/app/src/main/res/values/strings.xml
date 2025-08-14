@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Time Widget</string>
+    <string name="widget_title">Screen time</string>
+    <string name="widget_subtitle_today">Today</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="open_app">Open app</string>
+    <string name="permission_needed_title">Usage access needed</string>
+    <string name="permission_needed_message">To show screen time, grant Usage Access to this app.</string>
+    <string name="grant_permission">Grant permission</string>
+    <string name="last_updated">Updated %1$s</string>
+    <string name="no_data">No data</string>
+</resources>
