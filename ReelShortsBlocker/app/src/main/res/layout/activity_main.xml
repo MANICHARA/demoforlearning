@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:padding="24dp">
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Block Instagram Reels and YouTube Shorts"
+		android:textSize="20sp"
+		android:paddingBottom="16dp" />
+
+	<Button
+		android:id="@+id/openAccessibility"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Open Accessibility Settings" />
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="12dp" />
+
+	<Button
+		android:id="@+id/openYoutube"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Open YouTube" />
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="12dp" />
+
+	<Button
+		android:id="@+id/openInstagram"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Open Instagram" />
+</LinearLayout>
